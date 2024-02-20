@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/** more headers goes there 
+/** main - main block 
 * This program will assign a random number to the variable n
-* main - main block
+* betty style doc for function main goes there
 * Return: 0 */
 int main(void)
 {
