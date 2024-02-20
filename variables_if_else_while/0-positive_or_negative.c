@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
-/* main - main block */
-/* Return: 0 */
+/** more headers goes there 
+* This program will assign a random number to the variable n
+* main - main block
+* Return: 0 */
 int main(void)
 {
 	int n;
