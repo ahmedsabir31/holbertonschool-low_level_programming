@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/**
-* main - main block
+/*
+*main - main block
 * Return: 0
  */
 int main(void)
