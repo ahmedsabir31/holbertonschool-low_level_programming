@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- *  * main - Entry point
- *   * Description: This program will assign a random number to the variable n
- *    * according to Betty coding style and documentation.
- *     * Return: 0 (Success)
- *      */
+ * main - main block
+ * Description: This program will assign a random number to the variable n
+ * according to Betty coding style and documentation.
+ * Return: 0 (Success)
+ */
 int main(void)
 {
 	    int n;
@@ -30,3 +29,4 @@ int main(void)
 
 				    return (0);
 }
+
