@@ -9,12 +9,11 @@
  */
 int main (void)
 {
-int a = '0';
-while (a <= '10')
+int a;
+for (a = 0; a < 10; a++)
 {
-	printf(a);
-	a++;
+	printf("%d", a);
 }
-printf('\n');
+printf("\n");
 return (0);
 }
