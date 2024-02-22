@@ -1,7 +1,7 @@
 #include "main.h"
-/*
- *main - main block
- * _putchar - Write a program that prints _putchar, followed by a new line.
+/**
+ * main - main block
+ * Putch
  * Return: 0
  */
 int main(void)
