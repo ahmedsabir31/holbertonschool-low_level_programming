@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - main block
- * Putch
- * Return: 0
+ * Write a fonction that prints the alphabet, in lowercase 
+ * Return: void
  */
 void print_alphabet(void);
 {
@@ -13,3 +13,4 @@ _putchar(c);
 c++;
 }
 _putchar('\n')
+}
