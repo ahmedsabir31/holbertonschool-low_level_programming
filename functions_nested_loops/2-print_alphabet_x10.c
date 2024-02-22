@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - main block
- * Putch
+ * print_alphabet_x10 - faire lalphabet
+ * 
  * Return: void
  */
 void print_alphabet_x10(void)
