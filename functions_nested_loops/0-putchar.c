@@ -1,7 +1,7 @@
 #include "main.h"
 /*
  *main - main block
- * putch
+ * putch ya pas de description rend pas fou
  * Return: 0
  */
 int main(void)
