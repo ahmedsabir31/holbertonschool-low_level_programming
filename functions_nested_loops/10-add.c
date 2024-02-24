@@ -7,12 +7,5 @@
  */
 int add(int o, int g)
 {
-int o;
-int g;
-int result;
-result = o + g;
-{
-_putchar(result + '0');
-}
-return (result);
+return (o + g);
 }
