@@ -10,7 +10,7 @@ int add(int o, int g)
 int o;
 int g;
 int result;
-result = x + y;
+result = o + g;
 {
 _putchar(result + '0');
 }
