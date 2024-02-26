@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_numbers - A function that prints the numbers, from 0 to 9
+ *more_numbers - Prints 10 the numbers from 0 to 14
  * Return: void
  */
 void more_numbers(void)
