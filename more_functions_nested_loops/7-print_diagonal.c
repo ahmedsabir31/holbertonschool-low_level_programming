@@ -11,7 +11,7 @@ if (b <= 0)
 _putchar('\n');
 for (b = 0; b < n; b++)
 {
-for (c = 0; c < i; c++)
+for (c = 0; c < b; c++)
 _putchar(' ');
 _putchar('\\');
 _putchar('\n');
