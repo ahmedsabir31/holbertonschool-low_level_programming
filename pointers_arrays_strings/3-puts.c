@@ -4,10 +4,10 @@
  * @str: pointeur vers la chaîne de caractères à imprimer
  */
 void _puts(char *str)
-{	    
-while (*str)
 {
-putchar(*str++);
+for (int i = 0; s[i] != '\0'; i++)
+{
+putchar(s[i]);
 }
 putchar('\n');
 }
