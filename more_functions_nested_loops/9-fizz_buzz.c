@@ -1,10 +1,9 @@
-#include "main.h"
+#include <stdio.h> 
 /**
- * FizzBuzz - Program that prints the numbers from 1 to 100
+ * fizz_buzz - Program that prints the numbers from 1 to 100
  *
  */
-void fizz_buzz(int a)
-{
+void fizz_buzz()
 for (int a = 1 ; a < 100; a++)
 {
 if (a % 3 == 0 && a % 5 == 0)
@@ -23,6 +22,11 @@ else
 }
 printf("%d" , a);
 }
-}
 printf("/n");
+}
+}
+int main ()
+{
+fizz_buzz();
+return 0;
 }
