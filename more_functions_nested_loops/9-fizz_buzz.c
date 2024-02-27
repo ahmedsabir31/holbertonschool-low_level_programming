@@ -3,7 +3,7 @@
  * FizzBuzz - Program that prints the numbers from 1 to 100
  *
  */
-void fizz_buzz (int, a)
+void fizz_buzz (int a)
 {
 for (int a = 1 ; a < 100; a++)
 {
