@@ -1,15 +1,14 @@
 #include "main.h"
 /**
- * _puts - prints a string 
+ * _puts - prints a string
  * @str: pointer to the input string
+ * Return: void
  */
 void _puts(char *str)
 {
-int i = 0; 
-while (str[i] != '\0')
+for (; *str; str++)
 {
-putchar(str[i]);
-i++;
+_putchar(*str);
 }
-putchar('\n');
-}		                                        
+_putchar('\n');
+}
