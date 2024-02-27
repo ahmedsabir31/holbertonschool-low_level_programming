@@ -5,7 +5,7 @@
  *
  *@a: the pointer to an int
  */
-void reset_to_98(int *a)
+void reset_to_98(int *n)
 {
- 	*a = 98;
+ 	*n = 98;
 }
