@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
- * _puts - fonction personnalisée qui imprime une chaîne de caractères suivie d'un saut de ligne
- * @str: pointeur vers la chaîne de caractères à imprimer
+ * _puts - prints a string 
+ * @str: pointer to the input string
  */
 void _puts(char *str)
 {
-for (int i = 0; s[i] != '\0'; i++)
+int i = 0; 
+while (str[i] != '\0')
 {
-putchar(s[i]);
+putchar(str[i]);
+i++;
 }
 putchar('\n');
-}
+}		                                        
