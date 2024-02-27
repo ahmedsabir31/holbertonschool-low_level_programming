@@ -26,6 +26,7 @@ printf("%d", a);
 }
 printf("\n");
 }
+
 int main()
 {
 fizz_buzz();
