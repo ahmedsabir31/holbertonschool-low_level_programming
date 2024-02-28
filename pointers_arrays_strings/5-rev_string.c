@@ -1,21 +1,20 @@
-#include "main.h"
+#include "main.h" 
 /**
  * rev_string - Reverses a string.
- * @s: The strong to be reversed
+ * @s: The string to be reversed.
  */
 void rev_string(char *s)
 {
-int str_lg = 0;
-int i = 0
-while (s[str_lg] ! = '\0')
+int lg = 0, i = 0;
+char t;
+
+while (s[i++])
+lg++;
+
+for (i = lg - 1; i >= lg / 2; i--)
 {
-str_lg++;
-}
-while (i < str_lg / 2)
-{
-temp = s[i];
-s[i] = s [str_lg - i i - 1];
-s [str_len - i - 1] = temp;
-i++;
+t = s[i];
+s[i] = s[lg - i - 1];
+s[lg - i - 1] = t;
 }
 }
