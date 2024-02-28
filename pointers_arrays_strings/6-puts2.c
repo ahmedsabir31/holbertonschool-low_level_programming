@@ -1,28 +1,21 @@
 #include "main.h"
 /**
- *puts2 - prints every other character of a string, starting with the first character
- *@str: the string from which characters are printed.
+ * puts - prints xters of a sting
+ * @str: the used string reference
+ *
+ * Return: void
  */
 void puts2(char *str)
 {
-int a;
-int b;
+int c = 0;
 
-a = 0;
-while (*(str + a) != '\0')
+while (str[c] != '\0')
 {
-a++;
-}
-_putchar(a);
-b = 0;
-while (b < a)
+if (c % 2 == 0)
 {
-if (b % 2 == 0)
-{
-_putchar(str[b]);
+_putchar(str[c]);
 }
-a--;
-b++;
+c++;
 }
-_putchar ('\n');
+_putchar('\n');
 }
