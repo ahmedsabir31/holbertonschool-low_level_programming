@@ -1,27 +1,21 @@
 #include "main.h"
-
 /**
- * _atoi - convert string to integer
- * 
- * @s: string to be converted 
- * Return: integer value
- */
+  * _atoi - Converts a string to an integer.
+  * @s: The string to be converted.
+  *
+  * Return: The interger value of the converted string.
+  */
 int _atoi(char *s)
 {
-int i = 0, sign = 1, n = 0;
-
-while (s[i] == ' ' || s[i] == '\t' || s[i] == '\n' || s[i] == '\v' || s[i] == '\f' || s[i] == '\r')
-i++;
-if (s[i] == '-' || s[i] == '+')
-{
-if (s[i] == '-')
-sign = -1;
-i++;
-}
-while (s[i] >= '0' && s[i] <= '9')
-{
-n = n * 10 + (s[i] - '0');
-i++;
-}
-return (n * sign);
+int sign = 1;
+unsigned int num = 0;
+do {
+if (*s == '-')
+sign *= -1;
+else if (*s >= '0' && *s <= '9')
+num = (num * 10) + (*s - '0');
+else if (num > 0)
+break;
+} while (*s++);
+return (num * sign);
 }
