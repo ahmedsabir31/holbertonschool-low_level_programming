@@ -36,4 +36,3 @@ pos++;
     
  return result * sign; 
 }
-
