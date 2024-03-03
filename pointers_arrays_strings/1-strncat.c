@@ -19,7 +19,7 @@ while (a2 < n)
 {
 if (*(src + a2))
 {
-*(dest + a2) = *(src + a2);
+*(dest + a1) = *(src + a2);
 a1++;
 a2++;
 }
