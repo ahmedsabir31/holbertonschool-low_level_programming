@@ -1,20 +1,16 @@
 #include "main.h"
 /**
- * _strchr - a function that locates a character in a string
- * @c: char
- * @s: string
- * Return: char
+ * _memcpy - copies memory
+ * @dest: destination str
+ * @src: source str
+ * @n: number of bytes to copy
+ * Return: string
  */
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-do
-{
-if (*s != c)
-s++;
-else if(*s == c)
-return (s);
-}
-while (*s);
-return (s);
-return ('\0');
+	char *s = dest;
+
+	while (n--)
+		*dest++ = *src++;
+	return (s);
 }
