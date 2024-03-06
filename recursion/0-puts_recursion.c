@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * _pow_recursion - returns the value of x raised to the power of y
- * @x: value to raise
- * @y: power
- *
- * Return: result 
+ * _puts_recursion - Prints a string
+ * @s: pointer
+ * Return: void
  */
-int _pow_recursion(int x, int y)
+void _puts_recursion(char *s)
 {
-	if (y < 0)
-		return (-1);
-	if (y == 0)
-		return (1);
-	return (x * _pow_recursion(x, y - 1));
+	if (s[0] != '\0')
+	{
+		_putchar(s[0]);
+		_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
